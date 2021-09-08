@@ -1,0 +1,57 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto',sans-serif;
+	background-color: pink;
+	font-size: 20px;
+	
+}
+.t_box{
+	position: relative;
+	height: 450px;
+	width: 350px;
+	border: 1px solid black;
+	border-radius: 15px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 0%);
+	background-color: rgba(20,75,125,0.5);
+	box-sizing: border-box;
+	padding: 10px 20px; 
+}
+.t_box input{
+	height: 45px;
+	width: 90%;
+	box-sizing: border-box;
+	padding: 10px 5px;
+	font-size: 25px;
+}
+.t_box input:hover{
+	outline: 1px solid blue;
+	background: lightblue;
+}
+.t_box .fahrenheit{
+	background-color: gray;
+	color: black;
+}
+.t_box .calculation{
+	height: 120px;
+	background-color: gray;
+	color : black;
+}
+.t_box button{
+	height: 40px;
+	width: 95px;
+	margin: 10px 10px;
+	background: #122236;
+	font-size: 20px;
+	color: white;
+}
+.t_box button:hover{
+	background-color: lightyellow;
+	outline: 1px solid lightgreen;
+	color: darkgreen;
+}
+.t_box p{
+	margin: 4px;
+}
